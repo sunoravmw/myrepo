@@ -5,9 +5,18 @@ function onButton1(url){
   location.href = url;
 }
 </script>
+<style type="text/css">
+<!--
+.btn {
+	width: 300px;
+	hight: 300px;
+	font-size: 60px
+}
+-->
+</style>
 <head>
 <body>
-<input type="Button" value="Smapri" onClick="onButton1('smapri:/Format/Print')" />
-<input type="Button" value="Content" onClick="onButton1('awscl://content')" />
+<input type="Button" value="Smapri" class="btn" onClick="onButton1('smapri:/Format/Print')" />
+<input type="Button" value="Content" class="btn" onClick="onButton1('awscl://content')" />
 </body>
 </html>
